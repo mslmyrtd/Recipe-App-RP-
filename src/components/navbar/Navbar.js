@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <Nav>
       <Logo to="/">
-        <i>{"<Clarusway>"}</i>
+        <i>{"<Mslm>"}</i>
         <span>recipe</span>
       </Logo>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
@@ -17,9 +17,7 @@ const Navbar = () => {
 
       <Menu isOpen={isOpen}>
         <MenuLink to="/about">About</MenuLink>
-        <MenuLink
-          to={{ pathname: "https://github.com/orgs/clarusway/dashboard" }}
-        >
+        <MenuLink to={{ pathname: "https://github.com/mslmyrtd" }}>
           Github
         </MenuLink>
         <MenuLink to="/login">Logout</MenuLink>

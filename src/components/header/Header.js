@@ -1,5 +1,10 @@
 import React from "react";
+import { HeaderContainer, MainHeader } from "./HeaderStyle";
 
 export const Header = () => {
-  return <div>Header</div>;
+  return (
+    <HeaderContainer>
+      <MainHeader>Food App</MainHeader>
+    </HeaderContainer>
+  );
 };
