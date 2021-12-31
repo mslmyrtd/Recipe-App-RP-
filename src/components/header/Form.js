@@ -11,6 +11,7 @@ export const Form = ({
 }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
+    getData();
   };
   return (
     <FormContainer onSubmit={handleSubmit}>
