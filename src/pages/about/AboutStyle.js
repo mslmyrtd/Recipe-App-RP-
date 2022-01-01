@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const AboutContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -13,6 +14,7 @@ export const AboutContainer = styled.div`
     font-size: 3rem;
   }
 `;
+
 export const InfoContainer = styled.div`
   text-align: right;
   margin: 0 10px;
@@ -24,7 +26,9 @@ export const InfoContainer = styled.div`
     color: white;
   }
 `;
+
 export const HeaderContainer = styled.div``;
+
 export const StyledImage = styled.img`
   width: 500px;
   margin-bottom: 2rem;
